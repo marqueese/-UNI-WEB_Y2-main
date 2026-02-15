@@ -242,6 +242,16 @@ body{
     flex-direction: column;
     gap: 16px;
   }
+
+  .card-inner {
+    flex-direction: column;
+    gap: 16px;
+    width: 97%;
+  }
+
+  .inner-left-column, .inner-right-column {
+    width: 95%;
+    
 }
 
 @media (max-width: 520px) {

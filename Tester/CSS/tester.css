@@ -104,10 +104,30 @@ body{
 
 .card-inner {
   margin-top: 10px;
-  height: 75%;
+  height: 77%;
   width: 98%;
   margin-left: 10px;
-  background-color: var(--card3);
+  display: flex;
+  grid-template-columns: repeat(2, minmax(110px, 1fr));
+  gap: 24px;
+}
+
+.inner-left-column, .inner-right-column {
+  flex:1;
+}
+
+.inner-left-column, .inner-right-column {
+  display: flex; 
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+
+.box{
+  background-color: var(--card2);
+  border-radius: var(--radius);
+  padding: 16px;
+  flex: 1;
 }
 
 .card.small-box{

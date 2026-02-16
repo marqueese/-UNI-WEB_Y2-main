@@ -4,7 +4,7 @@
   --card2: rgba(255, 255, 255, .12);
   --card3: rgba(47, 113, 226, 0.381);
   --text: #e9eefc;
-  --muted: rgba(32, 140, 228, 0.94);
+  --muted: rgb(32, 133, 228);
   --accent: #7c5cff;
   --good: #3ddc97;
   --bad: #ff5c7a;
@@ -37,11 +37,13 @@ body{
 }
 
 .Dashboard {
-  width: min(1600px, 100%);  
   margin: 1px;
   display: grid;
   gap: 24px;
   padding: 10px;
+  max-width: 2500px;
+  width: 100%;
+  height: 100%;
 }
 
 .card,
@@ -173,7 +175,7 @@ body{
   min-height: 110px;
   height: auto;             
   text-align: center;
-  font-size: 10px;
+  font-size: 1.2rem;
   padding: 12px;
 }
 
@@ -251,7 +253,7 @@ body{
 
   .inner-left-column, .inner-right-column {
     width: 95%;
-    
+  }
 }
 
 @media (max-width: 520px) {
